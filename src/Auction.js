@@ -44,7 +44,7 @@ class Auction extends React.Component {
     }
 
     return (
-      <div className="auction">
+      <div className="auction" data-test-id="auction">
         <h1>Auction</h1>
         <p className="center">Your are bidding on this work sample, all bids are stored in SEK, converted from your chosen currency when placing the bid</p>
         <Bids item={{...item,currency_rates}}>
